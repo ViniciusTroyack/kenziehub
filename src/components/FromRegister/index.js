@@ -31,7 +31,6 @@ export default function FormRegister() {
     })
 
     const onSubmitFunction = (data) => {
-        console.log(data)
         axios.post('https://kenziehub.me/users', data)
             .then((_) => {
                 toast.success('Cadastro Efetuado com sucesso')

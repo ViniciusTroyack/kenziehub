@@ -1,5 +1,6 @@
 input{
     width: 15vw;
+    min-width: 260px;
     height: 6vh;
     background: #FFFFFF;
     border-radius: 8px;

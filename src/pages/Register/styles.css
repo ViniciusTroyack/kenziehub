@@ -26,3 +26,17 @@ h1{
     height: 70vh;
     width: 50vw;
 }
+
+@media screen and (max-width: 660px){
+    .img{
+        display: none;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    
+    .loginPage{
+        flex-direction: column-reverse;
+    }
+}

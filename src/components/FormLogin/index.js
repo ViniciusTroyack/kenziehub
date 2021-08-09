@@ -28,11 +28,11 @@ export default function FormLogin({ authenticated, setAuthenticated }) {
     })
 
     const onSubmitFunction = (data) => {
-        console.log(data)
         axios.post('https://kenziehub.me/sessions', data)
             .then((response) => {
                 const { token } = response.data
                 const { id } = response.data.user
+                localStorage.clear();
                 localStorage.setItem('@KenzieHub:token', JSON.stringify(token))
                 localStorage.setItem('@KenzieHub:user_id', JSON.stringify(id))
                 setAuthenticated(true)
