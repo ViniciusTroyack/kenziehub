@@ -1,0 +1,28 @@
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    color: #6C63FF;
+}
+
+.img {
+    background-image: url("../../assets/undraw_researching_22gp-Registrer.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 50vw;
+}

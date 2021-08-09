@@ -1,0 +1,27 @@
+.divDashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.divImg{
+    background-image: url('../../assets/undraw_road_to_knowledge_m8s0-Painel.svg');
+    width: 30vw;
+    height: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    width: 60vw;
+    height: 70vh;
+    background-color: #DFE5EE;
+    border-radius: 8px;
+}
